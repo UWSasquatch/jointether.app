@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./App.css";
 
-import map from './map.png';
+import mockup from './mockup.png';
 
 function App() {
 
@@ -65,7 +65,7 @@ function App() {
           </header>
         </div>
         <div className="right-area">
-          <img className="mockup" src={map} alt="app mockup"/>
+          <img className="mockup" src={mockup} alt="app mockup"/>
         </div>
       </div>
     </div>
