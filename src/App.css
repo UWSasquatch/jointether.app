@@ -116,7 +116,17 @@
 }
 
 @media (max-width: 480px) {
-  .left-area {
 
+  .content-area {
+    flex-direction: column-reverse;
+  }
+
+  .mockup {
+    height: 360px;
+    padding-left: 20px;
+  }
+
+  .header-title {
+    font-size: 60px;
   }
 }
