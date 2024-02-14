@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./App.css";
 
-import mockup from './mockup.png';
+import map from './map.png';
 
 function App() {
 
@@ -22,16 +22,9 @@ function App() {
 
     console.log("Sending Form:", formEmail)
 
-    // fetch('https://text-me-when-api.herokuapp.com/signup/', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Accept': 'application/json',
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({
-    //     email: formEmail,
-    //   })
-    // })
+    fetch(`https://hooks.zapier.com/hooks/catch/17933864/3lncvgs/?email=${formEmail}`, {
+      method: 'POST',
+    })
 
   }
 
@@ -72,7 +65,7 @@ function App() {
           </header>
         </div>
         <div className="right-area">
-          <img className="mockup" src={mockup} alt="textmewhen mockup"/>
+          <img className="mockup" src={map} alt="app mockup"/>
         </div>
       </div>
     </div>
