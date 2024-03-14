@@ -46,7 +46,7 @@ function App() {
         <div className="left-area">
           <header className="header">
             <h1 className="header-title">Tether</h1>
-            <p className="header-subtitle">Let the distance bring you closer.</p>
+            <p className="header-subtitle">A shared space for your relationship.</p>
             <p className="launch-message">
               {message}
             </p>
