@@ -14,7 +14,7 @@ function App() {
           <h1 className="title" >Tether</h1>
           <img className="logo" src={logo} alt="Tether logo" />
         </div>
-        <p className="subtitle">The shared space for your relationship</p>
+        <p className="subtitle">The shared space for your relationship.</p>
         <div className="app-download">
           <img className="badge" src={badge} alt="App Store"/>
         </div>
