@@ -1,0 +1,23 @@
+[
+    {
+      "extension": "/tos",
+      "url": "tether-terms-of-service.pdf"
+    },
+    {
+      "extension": "/TOS",
+      "url": "tether-terms-of-service.pdf"
+    },
+    {
+      "extension": "/terms-of-service",
+      "url": "tether-terms-of-service.pdf"
+    },
+    {
+      "extension": "/privacy",
+      "url": "tether-privacy-policy.pdf"
+    }
+    ,
+    {
+      "extension": "/privacy-policy",
+      "url": "tether-privacy-policy.pdf"
+    }
+  ]
