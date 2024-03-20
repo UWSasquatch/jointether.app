@@ -10,7 +10,7 @@ const Contact = () => {
             <h1 className="text-[24px] leading-none">Tether</h1>
             <div className="relative h-[24px] w-[24px]">
               <Image
-                src="/images/logo.png"
+                src="/logo.png"
                 className="rounded-md"
                 alt="Tether logo"
                 fill

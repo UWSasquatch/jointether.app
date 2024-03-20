@@ -14,7 +14,7 @@ const Home = () => {
                 </h1>
                 <div className="relative h-[24px] w-[24px] sm:h-[96px] sm:w-[96px]">
                   <Image
-                    src="/images/logo.png"
+                    src="/logo.png"
                     className="rounded-md sm:rounded-2xl"
                     alt="Tether logo"
                     fill
