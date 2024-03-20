@@ -55,7 +55,7 @@ const Home = () => {
           Terms of service
         </Link>
         {" • "}
-        <Link href="mailto:support@jointether.app" className="">
+        <Link href="/contact" className="">
           Contact
         </Link>
       </footer>

@@ -8,7 +8,7 @@ const Layout = ({ children }: Readonly<{ children: ReactNode }>) => {
     <>
       <a id="top" />
       <div className="flex flex-col items-center">
-        <main className="max-2xl flex flex-col items-start gap-8 px-8 py-16">
+        <main className="flex max-w-[1024px] flex-col items-start gap-8 px-8 py-16">
           <Link href="/">
             <header className="flex items-center gap-4">
               <h1 className="text-[24px] leading-none">Tether</h1>
