@@ -4,11 +4,11 @@ import Link from "next/link";
 const Home = () => {
   return (
     <div className="flex min-h-full flex-1 flex-col items-center justify-between gap-10 py-8 pl-8 pr-8 sm:gap-24 sm:pr-[62px]">
-      <main className="flex flex-1 flex-row flex-wrap items-center justify-center gap-4 sm:gap-24">
-        <header className="flex flex-col items-center gap-16 sm:items-start">
+      <main className="flex flex-1 flex-row flex-wrap items-center justify-center gap-8 sm:gap-24">
+        <header className="flex flex-col items-center gap-8 sm:items-start sm:gap-16">
           <div className="flex flex-col gap-12 sm:gap-8">
             <div className="flex flex-row items-center">
-              <div className="flex flex-1 items-center gap-2 sm:gap-8">
+              <div className="flex flex-1 items-center justify-between gap-2 sm:justify-start sm:gap-8">
                 <h1 className="text-[24px] leading-none sm:text-[80px]">
                   Tether
                 </h1>
@@ -21,15 +21,12 @@ const Home = () => {
                   />
                 </div>
               </div>
-              <div className="relative block h-[24px] w-[72px] sm:hidden">
-                <Image src="/images/badge.png" alt="App Store" fill />
-              </div>
             </div>
             <p className="text-center text-4xl sm:text-left sm:text-2xl">
               The shared space for your relationship.
             </p>
           </div>
-          <div className="relative hidden h-[64px] w-[192px] sm:block">
+          <div className="relative h-[48px] w-[144px] sm:h-[64px] sm:w-[192px]">
             <Image src="/images/badge.png" alt="App Store" fill />
           </div>
         </header>
