@@ -27,7 +27,12 @@ const Home = () => {
             </p>
           </div>
           <div className="relative h-[48px] w-[144px] sm:h-[64px] sm:w-[192px]">
-            <Image src="/images/badge.png" alt="App Store" fill />
+            <Link
+              href="https://apps.apple.com/us/app/tether-shared-space/id6476932587"
+              className=""
+            >
+              <Image src="/images/badge.png" alt="App Store" fill />
+            </Link>
           </div>
         </header>
         <div className="flex flex-col gap-4 sm:relative sm:h-[534px] sm:w-[304px]">

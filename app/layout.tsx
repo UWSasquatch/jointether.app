@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="apple-itunes-app" content="app-id=6476932587" />
+      </head>
       <body className={`flex min-h-screen flex-col ${dmSans.className}`}>
         {children}
       </body>

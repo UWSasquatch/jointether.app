@@ -1,0 +1,30 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "4N37MTK944.com.tether.tether-app"
+        ],
+        "components": [
+          {
+            "/": "/pairing",
+            "?": {
+              "code": "????"
+            },
+            "comment": "Matches all routes"
+          }
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "4N37MTK944.com.tether.tether-app"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "4N37MTK944.com.tether.tether-app"
+    ]
+  }
+}
