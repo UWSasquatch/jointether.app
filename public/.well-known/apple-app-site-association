@@ -7,11 +7,11 @@
         ],
         "components": [
           {
-            "/": "/pairing",
+            "/": "/",
             "?": {
               "code": "????"
             },
-            "comment": "Matches all routes"
+            "comment": "Matches root URL"
           }
         ]
       }
